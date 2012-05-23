@@ -1,0 +1,23 @@
+.jcarousel-skin-custom .jcarousel-container-horizontal {
+    width: 220px;
+    padding: 0;
+}
+
+.jcarousel-skin-custom .jcarousel-clip-horizontal {
+    width:  220px;
+}
+
+.jcarousel-skin-custom .jcarousel-item,
+.jcarousel-skin-custom .jcarousel-item img {
+    width: 220px;
+}
+
+.jcarousel-skin-custom .jcarousel-item-horizontal {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.jcarousel-skin-custom .jcarousel-item-placeholder {
+  background: #fff;
+  color: #000;
+}

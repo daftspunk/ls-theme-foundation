@@ -1,0 +1,60 @@
+html { font-size: 100%; /* IE hack */ }
+
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, 
+blockquote, ul, ol, dl, dt, dd, li, address, dd, dtm, div, td, th, hr
+{
+	margin:0;
+	padding:0;
+}
+
+ul,li
+{
+	list-style-type: none;
+}
+
+body
+{
+	font: 62.5% Myriad Pro, Arial,Helvetica,Tahoma,Verdana,Helvetica,sans-serif;
+	background: #fff;
+	padding: 15px;
+}
+
+div.default_page_content
+{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+div.default_page_content p
+{
+	font-size: 14px;
+	line-height: 150%;
+	color: #333;
+	text-align: center;
+}
+
+.default_page_content h1
+{
+	text-indent: -100000em;
+	background: transparent url(../images/ls_home_logo.png) no-repeat left top;
+	height: 163px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.default_page_content h2
+{
+	text-align: center;
+	color: #cc5900;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.default_page_content p.error_code
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
