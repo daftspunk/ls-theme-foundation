@@ -18,6 +18,10 @@ theme, please follow these instructions:
 Please note the CMS templates (pages, partials, layouts) will be merged with any already existing 
 in your store. Alternatively, and for version control, the `templates` directory contains filesystem CMS templates.
 
+Documentation
+---------------------------------------------------------------------------------------------------
+Usage instructions and documentation on Zurb's Foundation Framework can be found at http://foundation.zurb.com/docs/
+
 Support
 ---------------------------------------------------------------------------------------------------
 
