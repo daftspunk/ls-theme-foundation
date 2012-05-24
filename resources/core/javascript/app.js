@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
     $('dl.tabs').ftabs();
 
     /* ALERT BOXES ------------ */
-    $(".alert-box").delegate("a.close", "click", function(event) {
+    $(".alert-box a.close").live("click", function(event) {
     event.preventDefault();
       $(this).closest(".alert-box").fadeOut(function(event){
         $(this).remove();

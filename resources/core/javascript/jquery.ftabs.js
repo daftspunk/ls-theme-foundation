@@ -37,7 +37,6 @@
             //Get active tab from hash
             if (window.location.hash) {
                 activateTab($('a[href="' + window.location.hash + '"]'));
-                 $.foundation.customForms.appendCustomMarkup();
             }
 
         });
