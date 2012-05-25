@@ -9,7 +9,7 @@
           <th>#</th>
           <th>Date</th>
           <th>Status</th>
-          <th class="right last">Total</th>
+          <th class="align_right last">Total</th>
         </tr>
       </thead>
       <tbody>
@@ -20,7 +20,7 @@
           <td><a href="<?= $url ?>"><?= $order->id ?></a></td>
           <td><a href="<?= $url ?>"><?= $order->order_datetime->format('%x') ?></a></td>
           <td><a href="<?= $url ?>"><strong><?= h($order->status->name) ?></strong> since <?= $order->status_update_datetime->format('%x') ?></a></td>
-          <td class="total right last"><a href="<?= $url ?>"><?= format_currency($order->total) ?></a></td>
+          <td class="total align_right last"><a href="<?= $url ?>"><?= format_currency($order->total) ?></a></td>
         </tr>
         <? endforeach ?>
       </tbody>
