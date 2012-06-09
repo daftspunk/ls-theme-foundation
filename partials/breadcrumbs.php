@@ -5,9 +5,11 @@
     <li><a href="<?= root_url('store') ?>">Store</a></li>
     <? foreach ($parent_categories as $parent_category): ?>
       <li class="<?= $parent_category->id == $category->id ? 'last' : null ?>">
-        <? if ($parent_category->id != $category->id): ?><a href="<?= $parent_category->page_url('store/category') ?>"><? endif ?>
-        <?= h($parent_category->name) ?>
-        <? if ($parent_category->id != $category->id): ?></a><? endif ?>
+        <? if ($parent_category->id != $category->id): ?>
+        <a href="<?= $parent_category->page_url('store/category') ?>"><?= h($parent_category->name) ?></a>
+        <? else: ?>
+        <span><?= h($parent_category->name) ?></span>
+        <? endif ?>
       </li>
     <? endforeach ?>
   </ul>
