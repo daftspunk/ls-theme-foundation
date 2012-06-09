@@ -10,6 +10,6 @@
       </div>
     <? endif ?>
   <? else: ?>
-    <p>Please enter a search query to the <srtong>Find products</srtong> field and hit Enter.</p>
+    <p>Please enter a search query to the <strong>Find products</strong> field and hit Enter.</p>
   <? endif ?>
 </div>
